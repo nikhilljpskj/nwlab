@@ -22,3 +22,16 @@ do
 	fi
 done
 echo "The count of prime numbers between $start and $end is : $count"
+
+
+Algorithm
+
+1. Input starting number (start) and ending number (end) from the user.
+2. Set count = 0 (to count prime numbers).
+3. For num in range from start to end (inclusive):
+   a. Set flag = 1 (assuming num is prime).
+   b. For j in range from 2 to num - 1:
+      i. If num is divisible by j (num % j == 0), set flag = 0 and break.
+   c. If num is equal to 1, continue to the next iteration.
+   d. If flag is still 1, increment count by 1 and print num as a prime number.
+4. Print the count of prime numbers found in the range.
