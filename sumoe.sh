@@ -18,3 +18,23 @@ do
 done
 echo "Sum of even numbers in the list is $sumEven"
 echo "Sum of odd numbers in the list is $sumOdd"
+
+
+Algorithm
+
+
+1. Input the size of the list and store it in size.
+2. Initialize an empty array called array.
+3. Initialize sumEven and sumOdd to 0.
+4. For i from 0 to size - 1:
+   a. Input a number and store it in item.
+   b. Append item to array.
+5. For each number in array:
+   a. If the number is even:
+      - Add the number to sumEven.
+   b. If the number is odd:
+      - Add the number to sumOdd.
+6. Print "Sum of even numbers in the list is sumEven."
+7. Print "Sum of odd numbers in the list is sumOdd."
+
+
